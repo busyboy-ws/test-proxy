@@ -2,6 +2,7 @@
 
 # Squid Installer
 
+sudo -s
 /bin/rm -rf /etc/squid
 /usr/bin/apt update
 /usr/bin/apt -y install apache2-utils squid
