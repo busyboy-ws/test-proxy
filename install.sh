@@ -13,7 +13,7 @@ touch /etc/squid/passwd
 
 #SED_SQUID_PORT
 
-/usr/bin/htpasswd -b -c /etc/squid/passwd SQUID_USERNAME SQUID_PASSWORD
+/usr/bin/htpasswd -b -c /etc/squid/passwd nano nano123
 
 systemctl enable squid
 systemctl restart squid
